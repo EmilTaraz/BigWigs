@@ -1,8 +1,8 @@
 local L = BigWigs:NewBossLocale("Shriekwing", "ruRU")
 if not L then return end
 if L then
-	-- L.pickup_lantern = "%s picked up the lantern!"
-	-- L.dropped_lantern = "Lantern dropped by %s!"
+	L.pickup_lantern = "%s взял фонарь!"
+	L.dropped_lantern = "%s бросил фонарь!"
 end
 
 L = BigWigs:NewBossLocale("Huntsman Altimor", "ruRU")
@@ -28,8 +28,8 @@ if L then
 	-- L.anima_adds = "Concentrate Anima Adds"
 	-- L.anima_adds_desc = "Show a timer for when adds spawn from the Concentrate Anima debuffs."
 
-	-- L.custom_off_experimental = "Enable experimental features"
-	-- L.custom_off_experimental_desc = "These features are |cffff0000not tested|r and could |cffff0000spam|r."
+	L.custom_off_experimental = "Включить экспериментальные функции"
+	L.custom_off_experimental_desc = "Эти функции |cffff0000не тестировались|r и они могут |cffff0000спамить|r."
 
 	-- L.anima_tracking = "Anima Tracking |cffff0000(Experimental)|r"
 	-- L.anima_tracking_desc = "Messages and Bars to track anima levels in the containers.|n|cffaaff00Tip: You might want to disable the information box or bars, depending your preference."
@@ -48,8 +48,8 @@ if L then
 	-- L.custom_on_repeating_dark_recital = "Repeating Dark Recital"
 	-- L.custom_on_repeating_dark_recital_desc = "Repeating Dark Recital say messages with icons {rt1}, {rt2} to find your partner while dancing."
 
-	-- L.custom_off_select_boss_order = "Mark Boss Kill Order"
-	-- L.custom_off_select_boss_order_desc = "Mark the order the raid will kill the bosses in with cross {rt7}. Requires raid leader or assist to mark."
+	L.custom_off_select_boss_order = "Порядок убийства боссов"
+	L.custom_off_select_boss_order_desc = "Отмечает нужного босса крестом {rt7}. Нужны права лидера рейда или помощника."
 	L.custom_off_select_boss_order_value1 = "Никлаус -> Фрида -> Ставрос"
 	L.custom_off_select_boss_order_value2 = "Фрида -> Никлаус -> Ставрос"
 	L.custom_off_select_boss_order_value3 = "Ставрос -> Никлаус -> Фрида"
